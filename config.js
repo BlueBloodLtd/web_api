@@ -44,3 +44,5 @@ exports.LINKEDIN_CONFIG = {
   clientSecret: process.env.LINKEDIN_SECRET,
   callbackURL: linkedinURL
 }
+
+const path = require('path');

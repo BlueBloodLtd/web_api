@@ -21,6 +21,15 @@ To be able to run server without social API keys, comment out index.js:
 // passportInit()
 ```
 
+## Database
+
+Edit .env or .env.development, then:
+
+```bash
+# Create tables
+node db/createTables.js
+```
+
 ## Deploy live
 
 ```

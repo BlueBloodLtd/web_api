@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/BlueBloodLtd/web_api#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.8",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
     "passport-github": "^1.1.0",
@@ -32,6 +35,10 @@
     "passport-linkedin": "^1.0.0",
     "passport-twitter": "^1.0.4",
     "path": "^0.12.7",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "pg-promise": "^8.4.6",
+    "shortid": "^2.2.13",
     "socket.io": "^2.1.1"
   }
 }
